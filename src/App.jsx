@@ -2,6 +2,7 @@ import React,{useContext, useState} from 'react'
 import {Routes,Route} from 'react-router-dom'
 import Home from './Pages/Home'
 import Results from './Pages/Results'
+import Credit from './Pages/Credit'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Login from './Components/Login'
@@ -19,6 +20,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/result' element={<Results/>}/>
+        <Route path='/credit' element={<Credit/>}/>
       </Routes>
       <Footer/>
     </div>
